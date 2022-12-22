@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: .9375rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: black;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.head_input{
+    width: 200px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.countries_list{
+    width: 200px;
+}
+
+.countries_cont{
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+    display: none;
+}
+.countries_cont:hover{
+    background: #8c90a5;
+}
+
+
+
+
+.h_one{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.to_do_input{
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.to_do_input_inp{
+    padding: 5px 20px;
+    width: 300px;
+}
+.to_do_content_li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-bottom: 0px;
+    display: flex;
+}
+.to_do_content_li:last-child{
+    border-bottom: 1px solid black;
+}
+
+.li_inp_txt{
+    margin-left: 20px;
+}
+.li_inp_btn{
+    margin-left: auto;
+    padding: 0px 5px;
+    border-radius: 15px;
+    color: #a90000;
+    font-weight: bold;
+    border: 2px solid #a90000;
+}
+.li_inp_btn:hover{
+    color: #cb0000;
+    border: 2px solid #cb0000;
+}
+.checked_li{
+    text-decoration: line-through;
+}
